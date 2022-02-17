@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@100;300;400;600;700&display=swap');
+
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Heebo', sans-serif; */
+
+body, html {
+  background-image: url(../../public/images/cinema.jpeg);
+  background-size: cover;
+  box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
+  height: 100vh;
+  font-family: 'Lato', sans-serif;
+  overflow-x: hidden;
+}
+
+
+/* -----Card----- */
+
+
+
+.card {
+  background-color: rgba(0, 0, 0, 0.8);
+  color: white;
+  padding: 1em;
+  border-radius: 50px;
+}
+
+.card-view {
+  margin: 2em
+}
+
+.textarea {
+  resize: none;
+  width: 100%;
+}
+
+ .card-title, .title-textarea {
+  font-size: 3rem;
+  font-family: 'Bebas Neue', cursive;
+}
+
+.card-year, .year-textarea {
+  font-size: 2rem;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+}
+
+.card-genre, .genre-textarea {
+  font-size: 2rem;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 400;
+
+}
+
+.card-description, .description-textarea {
+  font-size: 1rem;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 300;
+
+}
+
+
+
+/* -----Button Area----- */
+
+.buttons .btn-component{
+    margin: 0.2em;
+    font-family: 'Heebo', sans-serif;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.buttons .btn-component:hover {
+  transition: 0.4s ease-out;
+}
+
+.btn-save {
+  margin: 0.2em;
+  font-family: 'Heebo', sans-serif;
+  font-weight: 600;
+}
+
+.btn-save:hover {
+  transition: 0.4s ease-out; 
+
+}
+
+/* The switch - the box around the slider */
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2aa75e;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+ .switch-indicator {
+    float: right;
+
+ }
+
+ .watch-indicator {
+   font-size: 1rem;
+   font-family: 'Heebo', sans-serif;
+   font-weight: 400;
+   font-size: 20px;
+ }
+
+  /* .switch::before {
+    content: 'Not Watched';
+    font-size: 2rem;
+    padding: 1em;
+
+  }
+
+  .switch::after {
+    content: 'Watched';
+
+  } */
