@@ -9,7 +9,6 @@ body, html {
   background-size: cover;
   box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5);
   height: 100vh;
-  font-family: 'Lato', sans-serif;
   overflow-x: hidden;
 }
 
@@ -23,6 +22,7 @@ body, html {
   color: white;
   padding: 1em;
   border-radius: 50px;
+  border: solid 1px gray ;
 }
 
 .card-view {
@@ -53,9 +53,9 @@ body, html {
 }
 
 .card-description, .description-textarea {
-  font-size: 1rem;
+  font-size: 1.4rem;
   font-family: 'Heebo', sans-serif;
-  font-weight: 300;
+  font-weight: 100;
 
 }
 
@@ -78,6 +78,7 @@ body, html {
   margin: 0.2em;
   font-family: 'Heebo', sans-serif;
   font-weight: 600;
+  font-size: 20px;
 }
 
 .btn-save:hover {
