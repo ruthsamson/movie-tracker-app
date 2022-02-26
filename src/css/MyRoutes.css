@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@100;300;400;600;700&display=swap');
+
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Heebo', sans-serif; */
+
+
+.nav {
+    background-color: black;
+    padding: 2em;
+    justify-content: center;
+    
+}
+
+.nav a {
+    color: white;
+    padding: 1em;
+    font-size: 1.6rem;
+    font-family: 'Bebas Neue', cursive;
+}
+
+.nav a:hover {
+    color: blueviolet;
+    text-decoration: none;
+    transition: 4ms ease-out;
+}

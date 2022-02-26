@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Heebo:wght@100;300;400;600;700&display=swap');
+
+
+/* font-family: 'Bebas Neue', cursive;
+font-family: 'Heebo', sans-serif; */
+
+
+
+.login {
+    background-color: pink;
+    width: 80%;
+    margin: 0 auto;
+    padding: 10em 2em;
+}
+
+form {
+    width: 50%;
+    margin: 0 auto;
+    font-family: 'Bebas Neue', cursive;
+}
+
+label {
+    display: block;
+    font-size: 4rem;
+    text-transform: uppercase;
+    margin: 0 auto;
+}
+
+input {
+    display: block;
+    padding-right: 4rem;
+    font-size: 2rem;
+    margin: 0 auto;
+
+}
+
+button {
+    display: block;
+    background-color: black;
+    color: white;
+    border-radius: 28px;
+    padding: 10px 30px ;
+    font-size: 30px;
+    margin: 1rem auto;
+}
